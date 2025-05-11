@@ -145,3 +145,48 @@ A Use Case Diagram typically includes:
 
 By using Use Case Diagrams, teams can more effectively plan, design, and communicate the expected functionality of the system, leading to smoother development and fewer misunderstandings.
 ![use case diagram](alx-booking-uc.png)
+## Acceptance Criteria
+
+**Acceptance Criteria** are a set of predefined conditions or requirements that a software product must meet in order to be considered complete and acceptable by the stakeholders, including business owners, users, and developers. These criteria are typically outlined during the requirement analysis phase and are critical in ensuring that the system delivers the desired functionality and meets business goals.
+
+### Importance of Acceptance Criteria in Requirement Analysis:
+
+1. **Clear Expectations:** Acceptance criteria provide clear and unambiguous definitions of what needs to be done. This clarity helps both the development team and the stakeholders to have a mutual understanding of the feature being developed and the end goal.
+
+2. **Scope Management:** Acceptance criteria help to define the boundaries of a feature, which prevents scope creep. By detailing what is in scope and what is not, they ensure that only the agreed-upon functionality is delivered.
+
+3. **Validation and Verification:** Acceptance criteria serve as a basis for testing the functionality of a system. They help to verify that the software meets the requirements and performs as expected. They also define the specific conditions under which the feature is considered complete.
+
+4. **Quality Assurance:** By having predefined criteria, acceptance criteria aid the quality assurance (QA) team in creating test cases and ensuring that the feature is thoroughly tested. This results in fewer defects and higher quality software.
+
+5. **Stakeholder Confidence:** Acceptance criteria allow stakeholders to know exactly what to expect from the feature and help ensure that their needs are met. This leads to greater confidence in the product.
+
+### Example of Acceptance Criteria: Checkout Feature in Booking Management System
+
+For the **Checkout** feature in a booking management system, the acceptance criteria might look like the following:
+
+- **User Login and Authentication:**
+   - The user must be logged in to proceed with the checkout.
+   - The system should verify the user’s identity using the stored username and password.
+
+- **Payment Information:**
+   - The user must provide valid payment details (credit/debit card, PayPal, etc.) before proceeding.
+   - The system must securely process payment details using an integrated payment gateway.
+   - The payment process should be completed within 5 seconds.
+
+- **Booking Confirmation:**
+   - Upon successful payment, the user should receive an email confirming their booking.
+   - The booking confirmation should include the property details, booking dates, and payment amount.
+
+- **Error Handling:**
+   - If the payment fails, the user must see an error message explaining the failure (e.g., “Insufficient funds” or “Payment method declined”).
+   - The user should be able to retry with a different payment method or update their payment details.
+
+- **Booking Modification:**
+   - Users should be able to modify the booking details (e.g., change dates) before the payment is processed.
+   - Once payment is processed, changes to the booking should not be allowed without customer support intervention.
+
+- **Performance:**
+   - The checkout process should load within 3 seconds.
+   - The system should handle at least 100 simultaneous checkouts without performance degradation.
+

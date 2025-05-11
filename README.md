@@ -144,3 +144,4 @@ A Use Case Diagram typically includes:
    Use cases can be used to identify test scenarios for verifying the functionality of the system, helping in ensuring that all the critical use cases are properly tested.
 
 By using Use Case Diagrams, teams can more effectively plan, design, and communicate the expected functionality of the system, leading to smoother development and fewer misunderstandings.
+![use case diagram](alx-booking-uc.png)

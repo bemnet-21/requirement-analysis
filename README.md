@@ -110,3 +110,37 @@ Requirement Analysis involves several key activities that help to identify, clar
 
 - **Usability:**
    - The system should have an intuitive user interface with clear navigation, so that users can book properties in fewer than 5 steps.
+
+---
+
+## Use Case Diagrams
+
+**Use Case Diagrams** are a type of diagram used in the requirement analysis phase to visually represent the interactions between users (or other systems) and the software system. They depict the system’s functionality from the user's perspective and identify the primary goals of the system.
+
+### What Are Use Case Diagrams?
+
+Use Case Diagrams are used to capture the functional requirements of a system by showing how different users (actors) interact with the system and what actions they can perform. Each "use case" in the diagram represents a specific functionality that the system provides. The actors can be either human users or other systems that interact with the software.
+
+A Use Case Diagram typically includes:
+- **Actors:** Represent users or other systems that interact with the system.
+- **Use Cases:** Represent the various functionalities or processes that the system performs.
+- **Associations:** Indicate the interactions between actors and use cases.
+
+### Benefits of Use Case Diagrams
+
+1. **Clarifies System Requirements:**
+   Use Case Diagrams provide a clear and simple way to visualize the functionalities of the system, helping stakeholders understand how users will interact with it.
+
+2. **Improves Communication:**
+   By depicting interactions in a visual format, Use Case Diagrams facilitate better communication between developers, stakeholders, and users. They help ensure that everyone has a shared understanding of the system’s capabilities.
+
+3. **Defines System Boundaries:**
+   Use Case Diagrams help identify the scope of the system, highlighting which features are included and which are excluded, thus helping in avoiding scope creep.
+
+4. **Serves as a Foundation for Further Analysis:**
+   Once the basic use cases are defined, they can be expanded into detailed use case specifications, providing a solid foundation for further analysis, design, and implementation.
+
+5. **Supports Test Planning:**
+   Use cases can be used to identify test scenarios for verifying the functionality of the system, helping in ensuring that all the critical use cases are properly tested.
+
+By using Use Case Diagrams, teams can more effectively plan, design, and communicate the expected functionality of the system, leading to smoother development and fewer misunderstandings.
